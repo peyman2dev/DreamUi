@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url(../fonts/Poppins/Poppins-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url(../fonts/Poppins/Poppins-Black.ttf);
+}
+
+body {
+  @apply font-Poppins-Regular max-w-[1920px] mx-auto bg-gradient-to-t  from-black/95 to-black text-white;
+}
+
+
+.button.default {
+  @apply px-3 py-2 rounded-md  hover:bg-white/5 active:scale-[0.95] border border-white/10 duration-150  select-none
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  @apply text-transparent bg-clip-text  bg-gradient-to-t from-white/80 to-white;
+};
+
+
+
+.inactive-link {
+  @apply text-white/60 duration-150 hover:text-white
+}

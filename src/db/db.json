@@ -1,0 +1,97 @@
+{
+    "routes": [
+        {
+          "title": "Guide",
+          "url": "/docs/guide/",
+          "children": [
+            {
+              "title": "Introduction",
+              "url": "/docs/guide/introduction"
+            },
+            {
+              "title": "Installation",
+              "url": "/docs/guide/installation"
+            },
+            {
+              "title": "CLI",
+              "url": "/docs/guide/cli"
+            },
+            {
+              "title": "Design Principles",
+              "url": "/docs/guide/design-principles"
+            },
+            {
+              "title": "Routing",
+              "url": "/docs/guide/routing"
+            },
+            {
+              "title": "Upgrade to v2",
+              "url": "/docs/guide/upgrade-to-v2"
+            }
+          ]
+        },
+        {
+            "title": "Frameworks",
+            "url": "/docs/frameworks/",
+            "children": [
+              {
+                "title": "Next.js",
+                "url": "/docs/frameworks/nextjs"
+              },
+              {
+                "title": "Vite",
+                "url": "/docs/frameworks/vite"
+              },
+              {
+                "title": "Remix",
+                "url": "/docs/frameworks/remix"
+              },
+              {
+                "title": "Astro",
+                "url": "/docs/frameworks/astro"
+              }
+            ]
+          },
+          {
+            "title": "Customization",
+            "url": "/docs/customization/",
+            "children": [
+              {
+                "title": "Theme",
+                "url": "/docs/customization/theme"
+              },
+              {
+                "title": "Layout",
+                "url": "/docs/customization/layout"
+              },
+              {
+                "title": "Colors",
+                "url": "/docs/customization/colors"
+              },
+              {
+                "title": "Customize theme",
+                "url": "/docs/customization/customize-theme"
+              },
+              {
+                "title": "Create theme",
+                "url": "/docs/customization/create-theme"
+              },
+              {
+                "title": "Dark mode",
+                "url": "/docs/customization/dark-mode"
+              },
+              {
+                "title": "Override styles",
+                "url": "/docs/customization/override-styles"
+              },
+              {
+                "title": "Custom variants",
+                "url": "/docs/customization/custom-variants"
+              }
+            ]
+          }
+          
+
+      ]
+      
+}
