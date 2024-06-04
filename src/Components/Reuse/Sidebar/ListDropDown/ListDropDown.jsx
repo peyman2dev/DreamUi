@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function listDropdown(props) {
   const [show, setShow] = useState(false);
-  console.log(props);
   return (
     <ul className="w-full select-none my-3">
       <li
@@ -17,9 +16,9 @@ export default function listDropdown(props) {
         </span>
       </li>
       <ul className={show ? "h-full" : "h-0 overflow-hidden"}>
-        {props.children?.map((link) => (
-          <li className="h-8">
-            <Link to={link.url} className="h-full text-white/50 duration-150 hover:text-white/80 ">{link.title}</Link>
+        {props.children?.map((link, index) => (
+          <li className="h-8" key={index}>
+            <NavLink to={link.url} className={({isActive}) => isActive ? "duration-150 text-white" : "h-full text-white/50 duration-150 hover:text-white/80 "}>{link.title}</NavLink>
           </li>
         ))}
       </ul>

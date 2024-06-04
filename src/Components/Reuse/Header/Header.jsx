@@ -5,8 +5,8 @@ import { BsGithub, BsTelegram } from "react-icons/bs";
 
 export default function Header() {
   return (
-        <section className="bg-black w-full h-[80px] mb-">
-    <header className="h-20 border-b  fixed top-0 z-50  w-full overflow-hidden border-white/10 bg-white/5 flex items-center justify-between px-20">
+        <section className="bg-black w-full h-[80px] relative z-50 backdrop-blur-sm">
+    <header className="h-20 border-b  backdrop-blur-sm  fixed top-0 z-50  w-full overflow-hidden border-white/10 bg-white/5 flex items-center justify-between px-20">
 
       <div className="flex items-center gap-3 relative child:relative child:z-50 z-10">
         <div className="flex gap-1.5 items-center mr-4">
